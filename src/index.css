@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", serif;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --color-esencia-primary: #D4C4B5;
+  --color-esencia-secondary: #EAE0D6;
+  --color-esencia-dark: #1a1a1a;
+  --color-esencia-gold: #C9A96E;
+  --color-esencia-light: #FAF7F4;
+}
+
+body {
+  background-color: var(--color-esencia-primary);
+  color: var(--color-esencia-dark);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
